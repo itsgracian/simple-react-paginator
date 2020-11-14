@@ -45,9 +45,14 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1>Names</h1>
+      <div className="listItems">
+      <ul>
       {items &&
         items.length > 0 &&
-        items.map((item, i) => <h1 key={i}>{item}</h1>)}
+        items.map((item, i) => <li key={i}>{item}</li>)}
+      </ul>
+      </div>
       <Pagination
         currentPage={currentPage}
         setCurrentPage={(v) => {
