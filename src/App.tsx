@@ -21,7 +21,7 @@ const storage = [
 ];
 
 export default function App() {
-  const itemPerPage = 5;
+  const itemPerPage = 3;
 
   const [currentPage = 1, setCurrentPage] = useState<number>();
 
