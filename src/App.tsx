@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./styles.css";
-import Pagination from "./Pagination/Pagination";
+import { Pagination } from "./components";
 
 const storage = [
   "kimpama",
